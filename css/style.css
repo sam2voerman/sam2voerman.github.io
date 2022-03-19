@@ -1,0 +1,107 @@
+body {
+  background-image: url("../Images/achtergrond.png");
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  position: absolute;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 925px;
+  font-family: sans-serif;
+  font-size: 3vh;
+  color: black;
+  background-color: white;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.ingredienten {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+}
+
+.ingredienten img {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.broodje {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tjerrie {
+  width: 50%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+}
+
+.tjerrie img {
+  width: 1200px;
+}
+
+.broodje img {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 30%;
+  text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pos0 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 35%;
+  bottom: 370px;
+}
+
+.pos1 {
+  bottom: 520px;
+}
+
+.pos2 {
+  bottom: 540px;
+}
+
+.pos3 {
+  bottom: 560px;
+}
+
+.pos4 {
+  bottom: 580px;
+}
+
+.pos5 {
+  bottom: 600px;
+}
+
+.pos6 {
+  bottom: 620px;
+}
